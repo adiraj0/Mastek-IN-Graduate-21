@@ -1,0 +1,265 @@
+html {
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+header{
+    background-color: white;
+    height: 80px;
+}
+#col-container{
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+.col-3{
+    width: 33%;
+    float: left;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: 0.85em;
+    color: #8e8e8e;
+    padding-right: 20px;
+}
+.menu{
+    margin-top: 32px;
+}
+.logo{
+    margin-top: 30px;
+}
+.getstartedbtn{
+    background-color: #6dc77a;
+    color: #ffffff;
+    border-radius: 28px;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    text-decoration: none;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    float: right;
+}
+#top-section-main{
+    background-image: url(../images/friends.jpg);
+    height: 750px;
+    border: none;
+
+}
+#top-section-main h1{
+    font-size: 4em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#top-section-main p{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+}
+.play-button{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   padding: 50px 0 100px 0;
+}
+.main-form{
+    width: 60%;
+    margin: auto;
+}
+.main-form h6 {
+    font-family: sans-serif;
+    font-size: .9em;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+.main-form input {
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border: none;
+}
+.main-form button {
+    width: 30%;
+    height: 42px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border: none;
+}
+#feature-section-main{
+    padding-top: 100px;
+}
+.feature-title {
+    width: 70%;
+    text-align: center;
+    font-weight: 50;
+    line-height: 3em;
+    margin: auto;
+}
+.feature-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.feature-content .col-3 {
+    padding: 10px;
+    width: 30%;
+}
+.col-2 {
+    float: left;
+    width: 48%;
+}
+.feature-content .col-3 img{
+    width: 100%;
+}
+.feature-content .col-3 p{
+    letter-spacing: 1px;
+    font-size: .9em;
+}
+#showcase1-container {
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    
+}
+.showcase1pic {
+    width: 100%;   
+}
+.feature-text {
+    padding-top: 300px;
+    padding-left: 50px;
+}
+#showcase2-container {
+    padding-top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    clear: both;
+}
+.col-1 {
+    width: 80%;
+    margin: auto;
+}
+
+#call-to-action {
+    background-image: url(../Images/darkdesk.png);
+    background-position: 50% 50%;
+    padding-bottom: 45px;
+}
+.action-title {
+    font-size: 4em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+}
+.col-1 p {
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.signupBTN {
+    background-color: #6dc77a;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 30px 90px;
+    
+}
+.signupBTN:hover {
+    background-color: #5cbf2a;   
+}
+.signupform {
+    background-color: #f6f8fa;
+    margin-right: 200px;
+    padding: 0px 50px 10px 50px;
+}
+.signupform h6 {
+    color: black;
+    padding-top: 15px;
+    font-size: .9em;
+    text-align: center;
+}
+.top-margin {
+    margin-top:100px;
+    margin-left: 100px;
+}
+input {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+    
+}
+button {
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border: none;
+    margin-top: 15px;
+}
+footer {
+    background-color: black;
+    clear: both;
+    height: 500px;
+    background-image: url(../Images/footerbg.png);
+    background-position: 50% 50%;
+}
+.social-footer {
+    width: 33%;
+    float: left;
+    height: 40%;
+}
+.social-footer:hover {
+    background-color: black;
+    opacity: .5;
+}
+.center {
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+.copyright {
+    color: #ffffff;
+    font-size: .9em;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
